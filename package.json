@@ -17,9 +17,9 @@
   },
   "dependencies": {
     "@types/lodash.isequal": "^4.5.2",
-    "handlebars": "4.5.3",
     "lodash.isequal": "^4.5.0",
     "node-gyp": "^8.0.0",
+    "nyc": "^15.1.0",
     "shortid": "^2.2.8"
   },
   "peerDependencies": {
@@ -40,10 +40,9 @@
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-react-native": "^3.1.0",
     "flow-bin": "^0.70.0",
-    "istanbul": "^0.4.5",
-    "istanbul-api": "1.2.2",
-    "istanbul-reports": "1.1.4",
-    "jest": "^22.4.2",
+    "istanbul-api": "3.0.0",
+    "istanbul-reports": "3.0.2",
+    "jest": "^26.6.3",
     "prettier": "^1.7.0",
     "prettier-eslint": "^8.2.1",
     "react-test-renderer": "16.3.2",
