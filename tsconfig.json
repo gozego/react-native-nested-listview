@@ -12,7 +12,12 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "declaration": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": [ // fix declaration collision between react-native and ts-jest
+			"react",
+			"react-native",
+      "jest"
+    ]
   },
   "filesGlob": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["dist/", "node_modules"],
