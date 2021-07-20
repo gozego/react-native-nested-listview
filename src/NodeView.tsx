@@ -38,8 +38,8 @@ export default class NodeView extends React.PureComponent<IProps, IState> {
   public componentWillMount() {
     this.setState({
       node: {
-        opened: false,
-        ...this.props.node
+        ...this.props.node,
+        opened: false
       }
     });
   }
@@ -48,8 +48,8 @@ export default class NodeView extends React.PureComponent<IProps, IState> {
     if (!isEqual(this.props.node, nextProps.node)) {
       this.setState({
         node: {
-          opened: this.state.node.opened,
-          ...nextProps.node
+          ...nextProps.node,
+          opened: this.state.node.opened
         }
       });
     }
