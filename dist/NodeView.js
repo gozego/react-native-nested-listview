@@ -7,7 +7,7 @@ export default class NodeView extends React.PureComponent {
         super(...arguments);
         this.onNodePressed = () => {
             this.setState({
-                node: Object.assign({}, this.state.node, { opened: !this.state.node.opened })
+                node: Object.assign(Object.assign({}, this.state.node), { opened: !this.state.node.opened })
             });
             LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
             if (this.props.onNodePressed) {
@@ -26,13 +26,13 @@ export default class NodeView extends React.PureComponent {
     }
     componentWillMount() {
         this.setState({
-            node: Object.assign({ opened: false }, this.props.node)
+            node: Object.assign(Object.assign({}, this.props.node), { opened: false })
         });
     }
     componentWillReceiveProps(nextProps) {
         if (!isEqual(this.props.node, nextProps.node)) {
             this.setState({
-                node: Object.assign({ opened: this.state.node.opened }, nextProps.node)
+                node: Object.assign(Object.assign({}, nextProps.node), { opened: this.state.node.opened })
             });
         }
     }
