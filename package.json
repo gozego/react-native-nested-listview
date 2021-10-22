@@ -18,11 +18,11 @@
   "dependencies": {
     "@types/lodash.isequal": "^4.5.5",
     "lodash.isequal": "^4.5.0",
-    "metro-react-native-babel-preset": "^0.66.2",
+    "metro-react-native-babel-preset": "^0.66.0",
     "node-gyp": "^8.3.0",
     "nyc": "^15.1.0",
     "react": "^17.0.2",
-    "react-native": "^0.66.1",
+    "react-native": "^0.65.1",
     "shortid": "^2.2.16"
   },
   "peerDependencies": {},
