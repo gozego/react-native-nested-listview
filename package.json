@@ -9,8 +9,7 @@
     "lint": "eslint --cache ./src",
     "tslint": "tslint -p .",
     "type-check": "tsc --noEmit",
-    "prepublishOnly": "tsc -p ./ --outDir dist/",
-    "postinstall": "npx force-resolutions@1.0.6"
+    "prepublishOnly": "tsc -p ./ --outDir dist/"
   },
   "repository": {
     "type": "git",
