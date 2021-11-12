@@ -1,6 +1,6 @@
 {
   "name": "zego-react-native-nested-listview",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Nested Listview for React native",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -18,16 +18,16 @@
   "dependencies": {
     "@types/lodash.isequal": "^4.5.2",
     "lodash.isequal": "^4.5.0",
-    "metro-react-native-babel-preset": "^0.66.1",
+    "metro-react-native-babel-preset": "^0.59.0",
     "node-gyp": "^8.0.0",
     "nyc": "^15.1.0",
-    "react": "^17.0.2",
-    "react-native": "^0.64.1",
+    "react": "16.13.1",
+    "react-native": "^0.63.4",
     "shortid": "^2.2.8"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-native": "^0.60.2"
+    "react": "16.13.1",
+    "react-native": "^0.63.4"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
@@ -36,7 +36,7 @@
     "@types/react-test-renderer": "^16.0.1",
     "@types/shortid": "^0.0.29",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^27.0.6",
+    "babel-jest": "^25.1.0",
     "babel-preset-react-native": "^4.0.1",
     "eslint": "^4.9.0",
     "eslint-plugin-flowtype": "^2.36.0",
